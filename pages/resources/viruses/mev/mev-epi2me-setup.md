@@ -1,8 +1,8 @@
 ---
-title: Setting up and using EPI2ME for ARTIC pipelines | EPI2ME
+title: Setting up and using EPI2ME amplicon-nf pipelines | EPI2ME
 keywords: protocol
 layout: document
-last_updated: 2025-07-23T00:00:00.000Z
+last_updated: {}
 tags:
   - protocol
 summary: null
@@ -12,7 +12,7 @@ title_text: Running the ARTIC MPXV analysis pipelines using EPI2ME
 subtitle_text: ARTIC pipelines | bioinformatics
 document_name: ARTIC-AMPLICON-NF-EPI2ME-Setup
 version: v1.0
-creation_date: 2024-08-22T00:00:00.000Z
+creation_date: {}
 revision_date: null
 forked_from: null
 author: null
