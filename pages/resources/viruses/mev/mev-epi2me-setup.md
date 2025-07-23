@@ -1,24 +1,25 @@
 ---
-title: "Setting up and using EPI2ME for ARTIC pipelines | EPI2ME"
+title: Setting up and using EPI2ME for amplicon-nf| EPI2ME
 keywords: protocol
 layout: document
-last_updated: 2024-08-22
-tags: [protocol]
-summary:
-permalink: mpxv-ont-epi2me-sop.html
+last_updated: 2025-07-23T00:00:00.000Z
+tags:
+  - protocol
+summary: null
+permalink: amplicon-nf-ont-epi2me-sop.html
 folder: mpxv
-title_text: "Running the ARTIC MPXV analysis pipelines using EPI2ME"
-subtitle_text: "ARTIC pipelines | bioinformatics"
-document_name: "ARTIC-MPXV-EPI2ME-Setup"
+title_text: Running the ARTIC amplicon-nf analysis pipeline using EPI2ME
+subtitle_text: ARTIC pipelines | bioinformatics
+document_name: ARTIC-AMPLICON-NF-EPI2ME-Setup
 version: v1.0
-creation_date: 2024-08-22
-revision_date: 
-forked_from: 
-author: Lauren Lansdowne
-citation: 
+creation_date: 2025-07-23T00:00:00.000Z
+revision_date: null
+forked_from: null
+author: null
+citation: null
 nav_menu: false
 show_tile: false
-category: mpxv-setup
+category: mev-setup
 ---
 
 {% include callout.html
@@ -46,7 +47,7 @@ Once you have downloaded the appropriate installer for your operating system, in
 
 The first time you run EPI2ME it may need to install some additional software. It will guide you through this process.
 
-## Using an ARTIC MPXV analysis pipeline in EPI2ME
+## Using the ARTIC amplicon-nf analysis pipeline in EPI2ME
 
 ## ---
 
@@ -108,4 +109,3 @@ Medaka runs within the pipeline to call variants between the reads provided and 
 <img width="500" src="/images/mpxv/ont-sop/screenshot_10.png">
 
 **We recommend you use a supported version of MinKNOW**. As a work around, you should select an option from this list of models which matches the flowcell chemistry and sequencing speed.
-
