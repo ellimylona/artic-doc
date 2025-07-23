@@ -33,5 +33,22 @@ Once it has downloaded, it will be ready in the Available Workflows tab. Select 
 ### **Running the workflow**
 
 From the workflow landing page, click “Launch”.
+![](https://github.com/artic-network/artic-doc/blob/hackathon/images/prepare-nf/Screenshot_preparenf_initiate.png)
 
+Select the appropriate technology form the “Sequencing platform” drop down menu, along with the path to the fastq files directory in “Run Directory”. 
+![](https://github.com/artic-network/artic-doc/blob/hackathon/images/prepare-nf/Screenshot_preparenf_platform_directory.png)
+
+Next, browse for and select the CSV or XLS file containing your metadata in the “Metadata” section. 
+
+Enter the name of the amplicon scheme using the nomenclature in Pimalscheme labs ([https://labs.primalscheme.com](https://labs.primalscheme.com)), e.g., artic-inrb-mpox/2500/v1.0.0. Make sure that the primer scheme matches the one you used for your sequencing. 
+
+![](https://github.com/artic-network/artic-doc/blob/hackathon/images/prepare-nf/Screenshot_preparenf_metadata_amplicon.png)
+
+Finally click “Launch workflow” and “Launch” in the pop up window to initiate the workflow. You will be redirected to the “Progress” panel with bars indicating the run progress. The runtime will depend on the size of your files and the speed of your computer, but it usually takes XXX minutes. The bar will change to green and ‘Complete’ when it has finished.
+ 
+(add screenshot)
+
+When it has finished you will have a file called sample_config.csv. You can feed this into amplicon-nf to proceed with your analysis.
+
+(add screenshot – example of csv file)
 
