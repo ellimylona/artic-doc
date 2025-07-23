@@ -72,4 +72,3 @@ Medaka runs within the pipeline to call variants between the reads provided and 
 <img width="500" src="">
 
 **We recommend you use a supported version of MinKNOW**. As a work around, you should select an option from this list of models which matches the flowcell chemistry and sequencing speed.
-
